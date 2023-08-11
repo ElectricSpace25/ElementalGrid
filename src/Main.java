@@ -40,7 +40,7 @@ public class Main extends PApplet {
     }
 
     public void settings() {
-        size(600, 450);
+        size(800  , 600);
     }
 
     public void setup() {
@@ -60,10 +60,11 @@ public class Main extends PApplet {
             int row = index / cols;
             int col = index % cols;
 
-            System.out.println("Tile " + index);
-            System.out.println("Row: " + row);
-            System.out.println("Col: " + col);
-            System.out.println();
+            //Debugging
+//            System.out.println("Tile " + index);
+//            System.out.println("Row: " + row);
+//            System.out.println("Col: " + col);
+//            System.out.println();
 
             // Check top neighbor
             if (row > 0) {
@@ -158,6 +159,5 @@ public class Main extends PApplet {
         Random r = new Random();
         return r.nextInt(max - min + 1) + min;
     }
-
 
 }

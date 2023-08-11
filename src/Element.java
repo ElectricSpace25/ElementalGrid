@@ -39,7 +39,7 @@ public enum Element{
         EARTH.g = 80;
         EARTH.b = 0;
         EARTH.likes = new ArrayList<Element>(Arrays.asList(EARTH, FIRE));
-        EARTH.dislikes = new ArrayList<Element>(Arrays.asList(ICE, AIR));
+        EARTH.dislikes = new ArrayList<Element>(Arrays.asList(ICE));
 
         AIR.name = "Air";
         AIR.r = 200;
